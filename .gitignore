@@ -1,0 +1,19 @@
+# Your own files stay on your computer.
+/presets/*
+/models/*
+/objects/*
+/renders/*
+!/presets/.gitkeep
+!/models/.gitkeep
+!/models/README.md
+!/objects/.gitkeep
+!/objects/README.md
+!/renders/.gitkeep
+
+# Tooling and generated output
+node_modules/
+source/tests/output/
+*.log
+*.map
+.DS_Store
+Thumbs.db
