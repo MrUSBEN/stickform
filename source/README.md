@@ -30,6 +30,7 @@ TypeScript + three.js r186, bundled with esbuild into one self-contained page, `
 | `index.html` | Page layout and styles (Studio). |
 | `scripts/build.mjs` | Bundles and inlines everything into `../stickform.html`. |
 | `scripts/export-public.mjs` | Used by the maintainer to prepare this repository from a private working folder. It does nothing useful in a clone and is not needed to build, run or test. |
+| `scripts/docs-check.mjs` | Maintainer's check that the documentation is up to date with the code. Like the export, it only works in the maintainer's folder layout and is not needed to build, run or test. |
 | `tests/` | The test suite (see `tests/README.md`). |
 
 ## Building (only needed to change the code)
