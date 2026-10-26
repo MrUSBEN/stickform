@@ -38,6 +38,7 @@ const DOCS = {                       // publish/<file> -> public/<path>
   'models-README.md': 'models/README.md',
   'objects-README.md': 'objects/README.md',
   '.gitignore': '.gitignore',
+  '.gitattributes': '.gitattributes',
 };
 const KEEP_DIRS = ['presets', 'models', 'objects', 'renders'];
 const TEXT_EXT = new Set(['.mjs', '.js', '.ts', '.json', '.html', '.md', '.txt', '.bat', '.css', '.svg', '.gitignore', '.gitkeep']);
